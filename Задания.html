@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <script>
+      //1
+   /* let num=4;
+    let ch="4";
+    alert(num+ch);*/
+      //2
+   // if("0"){alert('Привет')}
+   //3
+   //"Object"
+   //alert(typeof(null));
+     //4
+  /* function convert()
+   {let a=10;a=a.toString(16);a=String(a);alert(a);alert(typeof(a))}
+   convert();*/
+     //5.1
+  /* function str_up_case(str1,str2)
+   {let str=str1+str2;str=str.substr(str.length - 4);alert(str.toUpperCase())}
+   let str1="qerxvchd_";
+   let str2="khmb";
+   str_up_case(str1,str2)*/
+     //5.2
+  /* function str_up_case(str1,str2)
+   {let str=str1+str2;str=str.slice(-4);alert(str.toUpperCase())}
+   let str1="qerxvchd_";
+   let str2="khmb";
+   str_up_case(str1,str2)*/
+     //6
+   /*function sum(num1,num2){let summ=num1+num2;alert(summ);}
+   let num1=5;
+   let num2=7;
+   sum(num1,num2);*/
+     //7
+   //alert('0002'==2);true
+   //alert(''==false);true
+   //alert(null===undefined);false
+   //alert(null==undefined);true
+   //alert('жопа'>'палец');false
+     //8
+   /*function unical(str)
+   {let schot=0;
+   let peremen1='';
+   let peremen2='';
+     for(let i=0;i<str.length;i++)
+     {
+       for(let j=0;j<str.length;j++)
+     {peremen1=str[i];
+       if(str[i]==str[j])schot++;
+     }
+     if(schot==1)peremen2+=peremen1;
+     peremen1="";
+     schot=0;
+     }
+     alert(peremen2);
+   }
+   let str="qwcbqc"
+   unical(str)*/
+   //9
+   /*let mas=[1,2,'3','5','4',5,'5',7,8,8,'10'];
+   let peremen=0;
+ for(let i=0;i<mas.length;i++){if(mas[i]%2==0)peremen+=mas[i]**(1/2)}
+ alert(peremen)*/
+    //10
+ /*let peremen='';
+ for(let i=1;i<101;i++)
+ {if(i%15==0)peremen=peremen+'FizzBuzz '
+ else if(i%5==0)peremen=peremen+'Buzz '
+ else if(i%3==0)peremen=peremen+'Fizz '
+ else peremen=peremen+i+' '
+ }alert(peremen)*/
+    //11
+ /*const a ={value:0};
+ const b ={data:a};
+ const c={...a};
+ const d =b.data;
+ d.value=10;
+ b.data.value=5;
+ c.value=7;*/
+    //12
+/*const users=
+[
+  {name:"Maxim ",id:"uuid1 ",online:true},
+  {name:"Andrew ",id:"uuid2 ",online:false},
+  {name:"Alex ",id:"uuid3 ",online:true},
+  {name:"Peter ",id:"uuid4 ",online:false}
+]
+const dto={department:"SBM "}
+function func(users,dto){
+  for(let i=0;i<users.length;i++)
+  {
+    users[i].department=dto.department
+    alert(users[i].department+users[i].name+users[i].id+
+    users[i].online)
+  }}
+  func(users,dto)*/
+//13
+/*let mas=[1,2,3]
+let mass="{} "
+
+for(let i=0;i<3;i++)
+  {
+    mass=mass+"{"+mas[i]+"} "
+    if(i<2)mass=mass+'{'+mas[0]+','+mas[i+1]+'} '
+    else mass=mass+'{'+mas[i]+','+mas[i-1]+'} '
+
+  }alert(mass)*/
+  </script>
+
+</body>
+</html>
